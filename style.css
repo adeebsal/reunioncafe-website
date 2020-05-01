@@ -1,29 +1,63 @@
 #restaurantname {
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-size: 5em;
+    font-weight: 600;
     text-align: center;
+    line-height: 1;
+    margin: auto;
 }
 #logo {
-  position:absolute;
-  display: inline;
-  text-align: center;
+    margin-left: auto;
+    margin-bottom: 0px;
+    margin-top: 1em;
+    margin-right: auto;
+    display: block;
+    height: 10em;
+}
+#navbar {
+    padding: 1em;
+    text-align: center;
 }
 #navbar li {
-  list-style: none;
+    list-style: none;
+    text-align: center;
+    display: inline;
 }
 #navbar li a {
-   font-family: Special Elite;
-  font-size: 1.5em;
+    font-family: Special Elite;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    border-bottom: solid;
+    border-width: 2px;
+    padding: .4em;
+    text-align: center;
+    margin: .25em
 }
-p {
-  font-family: Special Elite;
-  font-size: 1.5em;
-  text-align: left;
-  padding-left: 20%;
-  padding-right: 20%;
-  line-height: 1.75em;
-  color: #333
+#navbar li a:hover {
+    background-color: black;
+    color: white;
+    border-top-right-radius: .25em;
+    border-top-left-radius: .25em;
+    border-bottom: solid;
+    border-bottom-color: black;
+}
+body p {
+    font-family: Special Elite;
+    font-size: 1.5em;
+    line-height: 1.75em;
+    color: #333
+}
+#announcement {
+    font-family: Special Elite;
+    font-size: 2em;
+    text-align: center;
+    color: red;
 }
 body {
-  background: #f3f2ee
+    background: #f3f2ee;
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 20%;
 }
