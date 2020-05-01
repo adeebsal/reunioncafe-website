@@ -1,0 +1,29 @@
+#restaurantname {
+    font-family: Montserrat;
+    font-size: 5em;
+    text-align: center;
+}
+#logo {
+  position:absolute;
+  display: inline;
+  text-align: center;
+}
+#navbar li {
+  list-style: none;
+}
+#navbar li a {
+   font-family: Special Elite;
+  font-size: 1.5em;
+}
+p {
+  font-family: Special Elite;
+  font-size: 1.5em;
+  text-align: left;
+  padding-left: 20%;
+  padding-right: 20%;
+  line-height: 1.75em;
+  color: #333
+}
+body {
+  background: #f3f2ee
+}
