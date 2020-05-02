@@ -1,22 +1,39 @@
-#restaurantname {
+body {
+    background: #f3f2ee;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#header {
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0em;
+}
+
+#name {
     font-family: "Montserrat";
     font-size: 5em;
     font-weight: 600;
     text-align: center;
-    line-height: 1;
-    margin: auto;
+    line-height: 0.9;
+    margin-top: .05em;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 #logo {
-    margin-left: auto;
-    margin-bottom: 0px;
-    margin-top: 1em;
-    margin-right: auto;
     display: block;
     height: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
 }
 #navbar {
     padding: 1em;
     text-align: center;
+    margin-top: 1em;
+    margin-bottom: 3em;
 }
 #navbar li {
     list-style: none;
@@ -33,7 +50,7 @@
     border-width: 2px;
     padding: .4em;
     text-align: center;
-    margin: .25em
+    margin: .25em;
 }
 #navbar li a:hover {
     background-color: black;
@@ -43,21 +60,56 @@
     border-bottom: solid;
     border-bottom-color: black;
 }
-body p {
-    font-family: Special Elite;
-    font-size: 1.5em;
-    line-height: 1.75em;
-    color: #333
-}
 #announcement {
     font-family: Special Elite;
     font-size: 2em;
     text-align: center;
     color: red;
 }
-body {
-    background: #f3f2ee;
-    text-align: left;
-    padding-left: 20%;
-    padding-right: 20%;
+body p {
+    font-family: Special Elite;
+    font-size: 1.5em;
+    line-height: 1.75em;
+    color: #333;
+}
+footer {
+    text-align: center;
+    font-family: montserrat;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 0px;
+    font-size: .75em;
+}
+footer a {
+    color: blue;
+    text-decoration: none
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #333;
+        color: #f3f2ee;
+    }
+    body p {
+        color: #f3f2ee;
+    }
+    #announcement {
+        color: crimson;
+    }
+    #logo {
+        filter: invert()
+    }
+    #navbar li a {
+        color: #f3f2ee;
+    }
+    #navbar li a:hover {
+        background-color: #f3f2ee;
+        color: #333;
+        border-bottom-color: #f3f2ee;
+    }
+}
+@media screen and (min-width:0px) and (max-width: 600px) {
+    body {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
