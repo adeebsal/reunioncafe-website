@@ -11,7 +11,6 @@ body {
 
 #name {
     font-family: "Montserrat";
-    font-size: 5em;
     font-weight: 600;
     text-align: center;
     line-height: 0.9;
@@ -22,7 +21,6 @@ body {
 }
 #logo {
     display: block;
-    height: 10em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
@@ -66,9 +64,9 @@ body {
 }
 body p {
     font-family: Special Elite;
+    color: #333;
     font-size: 1.5em;
     line-height: 1.75em;
-    color: #333;
 }
 footer {
     text-align: center;
@@ -108,16 +106,46 @@ footer a {
     body a {
         color: lightslategray;
     }
+    footer {
+        color: #666
+    }
 }
-@media screen and (min-width:0px) and (max-width: 600px) {
+@media screen and (max-width:350px) {
+       body {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #name {
+        font-size: 15vw;
+    }
+    #logo {
+        height: 15vh;
+    }
+    #navbar li a {
+    display: block;
+    }
+}
+@media screen and (min-width:351px) and (max-width: 600px) {
     body {
         margin-left: 10%;
         margin-right: 10%;
+    }
+    #name {
+        font-size: 15vw;
+    }
+    #logo {
+        height: 15vh;
     }
 }
 @media screen and (min-width:601px) {
     body {
         margin-left: 20%;
         margin-right: 20%;
+    }
+    #name {
+        font-size: 5em;
+    }
+    #logo {
+        height: 10em;
     }
 }
