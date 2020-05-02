@@ -140,8 +140,11 @@ footer a {
         height: 15vh;
     }
     body p {
-    font-size: 1.25em;
+    font-size: 1.5em;
     line-height: 1.5em;
+    }
+    #announcement {
+        font-size: 1.75em;
     }
 }
 @media screen and (min-width:601px) {
