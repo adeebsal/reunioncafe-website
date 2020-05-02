@@ -1,8 +1,6 @@
 body {
     background: #f3f2ee;
     text-align: left;
-    margin-left: 20%;
-    margin-right: 20%;
 }
 #header {
     margin-top: 2em;
@@ -79,9 +77,10 @@ footer {
     display: block;
     margin-bottom: 0px;
     font-size: .75em;
+    color: #9999;
 }
 footer a {
-    color: blue;
+    color: lightblue;
     text-decoration: none
 }
 @media (prefers-color-scheme: dark) {
@@ -107,12 +106,18 @@ footer a {
         border-bottom-color: #f3f2ee;
     }
     body a {
-        color: lightseagreen;
+        color: lightslategray;
     }
 }
 @media screen and (min-width:0px) and (max-width: 600px) {
     body {
         margin-left: 10%;
         margin-right: 10%;
+    }
+}
+@media screen and (min-width:601px) {
+    body {
+        margin-left: 20%;
+        margin-right: 20%;
     }
 }
